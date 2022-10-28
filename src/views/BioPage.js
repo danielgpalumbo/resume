@@ -13,8 +13,8 @@ function BioPage() {
             blurb={
               <Desc
                 text="I am a technologically savvy, hard-working, adaptable individual with a keen interest in scientific development. 
-                I'm highly skilled in time management and organization, and add value to everything that I do. I have an extensive background 
-                in the field of Applied Chemistry from my time as an undergraduate at the University at Albany. As an Applications Engineer."
+                I'm highly skilled in time management and organization, and add value to everything that I do. I have an extensive background
+                in Project Management from my time at Taconic Biosciences."
             />}
           />
           <Divider/>
