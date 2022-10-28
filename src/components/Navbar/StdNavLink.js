@@ -19,7 +19,7 @@ function StdNavLink() {
                 <Nav.Link disabled="true"><h5 className="nav-spacer">-</h5></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="https://drive.google.com/file/d/1Sq1FYCE5bT53XccpKByct3vwtTSKg-iC/view?usp=sharing" target="_blank"><h5 className="link">Resume</h5></Nav.Link>
+                <Nav.Link href="https://drive.google.com/file/d/14i1p2KYPlz4ApEsKP6QPTGNOEIlsIJO9/view?usp=sharing" target="_blank"><h5 className="link">Resume</h5></Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link disabled="true"><h5 className="nav-spacer">-</h5></Nav.Link>

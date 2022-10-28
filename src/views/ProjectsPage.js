@@ -17,6 +17,8 @@ function ProjectsPage() {
             Text ="This is the repo for the current website you are viewing built with React and Bootstap"
             />
         </Container>
+        <Container>
+        </Container>
       </div>
     );
   }
