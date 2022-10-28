@@ -7,10 +7,10 @@ function ImageTag(props) {
             <Container>
                 <div class="row">
                     <div class="col text-center">
-                        <Image fluid="true" style={{width: 300}} className="pic"  src={props.src}/>
+                        <Image fluid="true" style={{width: 300, padding: 30}} className="pic"  src={props.src}/>
                     </div>
                     <div class="col my-auto">
-                        <p>{props.text}</p>
+                        <p>{props.blurb}</p>
                     </div>
                 </div>
             </Container>

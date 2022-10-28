@@ -7,7 +7,7 @@ function StdNavLink() {
     <div className="StdNavLink">
         <Nav>
             <Nav.Item>
-                <Nav.Link href="/About"><h5 className="link">About</h5></Nav.Link>
+                <Nav.Link href="/Bio"><h5 className="link">Bio</h5></Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link disabled="true"><h5 className="nav-spacer">-</h5></Nav.Link>

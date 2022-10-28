@@ -2,8 +2,10 @@ import StdNav from './Navbar/StdNav.js';
 import Container from 'react-bootstrap/esm/Container';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import HomePage from '../views/HomePage.js';
-import AboutPage from '../views/AboutPage.js';
+import BioPage from '../views/BioPage.js';
 import ProjectsPage from '../views/ProjectsPage.js';
+import AlbanyCourseWorkPage from '../views/AlbanyCourseWorkPage.js';
+import MaristCourseWorkPage from '../views/MaristCourseWorkPage.js';
 
 import './App.css';
 
@@ -17,8 +19,10 @@ function App() {
         <Router>
             <Routes>
               <Route path="/" caseSensitive="false" element={<HomePage/>}/>
-              <Route path="/About" caseSensitive="false" element={<AboutPage/>}/>
+              <Route path="/Bio" caseSensitive="false" element={<BioPage/>}/>
               <Route path="/Projects" caseSensitive="false" element={<ProjectsPage/>}/>
+              <Route path="/MaristCourseWork" caseSensitive="false" element={<MaristCourseWorkPage/>}/>
+              <Route path="/AlbanyCourseWork" caseSensitive="false" element={<AlbanyCourseWorkPage/>}/>
             </Routes>
           </Router>
         </Container>

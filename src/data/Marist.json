@@ -1,0 +1,12 @@
+{   
+    "courses": [
+        "Software Design & Development",
+        "Datatbase Management Systems",
+        "Networking",
+        "Security Algorithms & Protocols",
+        "Artificial Intelligence", 
+        "Enterprise Mobile Development",
+        "Game Design & Programming II",
+        "Capstone Project"
+    ]
+}
