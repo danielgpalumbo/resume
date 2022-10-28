@@ -6,12 +6,12 @@ function StdNavLink() {
   return (
     <div className="StdNavLink">
         <Nav>
-            <Nav.Item>
+            {/* <Nav.Item>
                 <Nav.Link href="/Bio"><h5 className="link">Bio</h5></Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
+            </Nav.Item> */}
+            {/* <Nav.Item>
                 <Nav.Link disabled="true"><h5 className="nav-spacer">-</h5></Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
             <Nav.Item>
                 <Nav.Link href="/Projects"><h5 className="link">Projects</h5></Nav.Link>
             </Nav.Item>

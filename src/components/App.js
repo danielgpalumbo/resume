@@ -18,7 +18,7 @@ function App() {
       <Container>
         <Router>
             <Routes>
-              <Route path="/" caseSensitive="false" element={<HomePage/>}/>
+              <Route path="/" caseSensitive="false" element={<BioPage/>}/>
               <Route path="/Bio" caseSensitive="false" element={<BioPage/>}/>
               <Route path="/Projects" caseSensitive="false" element={<ProjectsPage/>}/>
               <Route path="/MaristCourseWork" caseSensitive="false" element={<MaristCourseWorkPage/>}/>
