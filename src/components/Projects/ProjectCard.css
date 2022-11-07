@@ -18,3 +18,7 @@ a:active {
 button {
     color: aliceblue;
 }
+
+.cardHolder {
+    margin-top: 30px;
+}

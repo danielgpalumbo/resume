@@ -1,7 +1,6 @@
-import StdNav from './Navbar/StdNav.js';
+import ResponsiveNav from '../components/Navbar/ResponsiveNav'
 import Container from 'react-bootstrap/esm/Container';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import HomePage from '../views/HomePage.js';
 import BioPage from '../views/BioPage.js';
 import ProjectsPage from '../views/ProjectsPage.js';
 import AlbanyCourseWorkPage from '../views/AlbanyCourseWorkPage.js';
@@ -11,9 +10,8 @@ import './App.css';
 
 function App() {
   return (
-    <>
       <div className= "app">
-          <StdNav/>
+          <ResponsiveNav/>
       <div className="content">
       <Container>
         <Router>
@@ -28,7 +26,6 @@ function App() {
         </Container>
         </div>
         </div>
-      </>
   );
 }
 
