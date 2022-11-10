@@ -7,7 +7,7 @@
 -You can visit the prod site at http://danthemango.herokuapp.com/
 
 ## TODO: 
- * actually make branches and stop pushing straight to master(I know I know)
+ * actually make branches and stop pushing straight to main(I know I know)
  * fix my blurry images
  * add a landing page
  * add more content in general
